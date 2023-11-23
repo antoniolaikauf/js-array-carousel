@@ -1,0 +1,48 @@
+/* stili generali */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contenitore{
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+/* caratteristiche immagini */
+img{
+    width: 100%;
+}
+/* cratteristiche bulsanti  */
+#scorrere-avanti{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#scorrere-indietro{
+    bottom: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#scorrere-indietro, #scorrere-avanti{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+    border: unset;
+    filter: contrast(0.5);
+}
+/* caratteristiche display che funzionano con js */
+
+
+.d-nascosta{
+    display: none;
+}
+
+.d-compari{
+    display: block;
+}
