@@ -4,7 +4,7 @@ let gruppoImmagini = document.getElementsByClassName("js-img");
 
 // creazione della variabile che aggiorna l'immagine
 
-let upgrade = 0;
+let upgrade=0;
 // creazione dell'evento click per andare avanti
 let buttonAvanti = document.getElementById("scorrere-avanti");
 buttonAvanti.addEventListener("click", function () {
@@ -39,3 +39,7 @@ buttonindietro.addEventListener("click", function () {
          }
     }
 })
+
+
+
+
