@@ -6,9 +6,11 @@
 }
 
 .contenitore{
-    width: 30%;
+    width: 50%;
     margin: auto;
     position: relative;
+    height: 400px;
+    top: 50px;
 }
 /* caratteristiche immagini */
 img{
@@ -37,12 +39,36 @@ img{
     filter: contrast(0.5);
 }
 /* caratteristiche display che funzionano con js */
-
-
 .d-nascosta{
     display: none;
 }
 
 .d-compari{
     display: block;
+}
+/* cartteristiche sfondo immagini */
+.sfondo1, .sfondo2, .sfondo3, .sfondo4, .sfondo5{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.sfondo1{
+    background-image: url(../img/01.webp);
+}
+
+.sfondo2{
+    background-image: url(../img/02.webp);
+}
+
+.sfondo3{
+    background-image: url(../img/03.webp);
+}
+
+.sfondo4{
+    background-image: url(../img/04.webp);
+}
+
+.sfondo5{
+    background-image: url(../img/05.webp);
 }
