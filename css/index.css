@@ -32,3 +32,11 @@ img{
     left: 50%;
     transform: translate(-50%);
 }
+
+.d-compari{
+    display: block;
+}
+
+.js-nascondi{
+    display: none;
+}
