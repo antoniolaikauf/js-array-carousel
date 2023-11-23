@@ -1,0 +1,106 @@
+/* stili generali */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* caratteristiche contenitore generale */
+.contenitore{
+    width: 50%;
+    margin: auto;
+    height: 400px;
+    top: 50px;
+    display: flex;
+}
+/* caratteristiche contenitore grande */
+.contenitore-grande{
+    width: 70%;
+}
+
+.contenitore-grande img{
+    width: 100%;
+    height: 100%;
+}
+/* caratteristiche conteniotre piccolo */
+.contenitore-piccolo{
+    width: 30%;
+    position: relative;
+}
+
+.contenitore-piccolo>div{
+    height: calc(100% / 5);
+}
+
+.contenitore-piccolo img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/* caratteristiche immagini */
+img{
+    width: 100%;
+}
+/* cratteristiche bulsanti  */
+#scorrere-avanti{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 500;
+}
+
+#scorrere-indietro{
+    bottom: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#scorrere-indietro, #scorrere-avanti{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+    border: unset;
+    filter: contrast(0.5);
+}
+/* caratteristiche display che funzionano con js */
+.sfocata{
+    filter: brightness(0.5);
+}
+.non-sfocatura{
+    filter: unset;
+}
+/* cartteristiche sfondo immagini */
+.sfondo1, .sfondo2, .sfondo3, .sfondo4, .sfondo5{
+    height: 100%;
+    background-size: cover;
+    background-position: right;
+}
+
+.sfondo1{
+    background-image: url(../img/01.webp);
+}
+
+.sfondo2{
+    background-image: url(../img/02.webp);
+}
+
+.sfondo3{
+    background-image: url(../img/03.webp);
+}
+
+.sfondo4{
+    background-image: url(../img/04.webp);
+}
+
+.sfondo5{
+    background-image: url(../img/05.webp);
+}
+/* display che vengono regolati con javascript */
+.d-nascosta{
+    display: none;
+}
+
+.d-compari{
+    display: block;
+}
