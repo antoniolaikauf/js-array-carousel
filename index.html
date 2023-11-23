@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <!-- link css -->
     <link rel="stylesheet" href="css/index.css">
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>carosello</title>
 </head>
 <body>
-    
+    <!-- contenitore con immagine -->
     <div class="contenitore">
-        <button id="scorrere-avanti"> vai avanti</button>
+        <!-- bottone per andare avanti -->
+        <button id="scorrere-avanti"><i class="fa-solid fa-arrow-up"></i></button>
         <div class="js-img d-compari  d-nascosta">
-            <img src="img/01.webp" alt="">
+            <img src="img/01.webp" alt="immagine spider-man">
         </div>
         <div class="js-img d-nascosta">
-            <img src="img/02.webp" alt="">
+            <img src="img/02.webp" alt="immagine gioco">
         </div>
         <div class="js-img d-nascosta">
-            <img src="img/03.webp" alt="">
+            <img src="img/03.webp" alt="immagine fortnite">
         </div>
         <div class="js-img d-nascosta">
-            <img src="img/04.webp" alt="">
+            <img src="img/04.webp" alt="immagine gatto">
         </div>
         <div class="js-img d-nascosta">
-            <img src="img/05.webp" alt="">
+            <img src="img/05.webp" alt="immagine avengers">
         </div>
-        <button id="scorrere-indietro">vai indietro</button>
+        <!-- bottone per tornare indietro -->
+        <button id="scorrere-indietro" class="d-nascosta"><i class="fa-solid fa-arrow-down"></i></button>
     </div>
 
     <!-- link javascript -->
