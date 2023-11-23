@@ -38,6 +38,7 @@ img{
 }
 /* caratteristiche display che funzionano con js */
 
+
 .d-nascosta{
     display: none;
 }
@@ -45,4 +46,3 @@ img{
 .d-compari{
     display: block;
 }
-

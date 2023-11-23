@@ -39,4 +39,3 @@ buttonindietro.addEventListener("click", function () {
          }
     }
 })
-
