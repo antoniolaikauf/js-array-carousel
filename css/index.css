@@ -4,3 +4,31 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+.contenitore{
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
+
+.d-nascosta{
+    display: none;
+}
+
+#scorrere-avanti{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#scorrere-indietro{
+    bottom: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
